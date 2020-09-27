@@ -1,0 +1,34 @@
+.container {
+  margin: 2em;
+  text-align: center;
+  font-family: Verdana;
+}
+
+.enter-food {
+  margin-bottom: 10px;
+ margin-top: 5px;
+}
+
+body {
+  background-color: rgb(185, 227, 129);
+color: black;
+margin: 0px;
+padding: 8px;
+outline: 80px solid rgb(200, 241, 209);
+background-size: 10px;
+min-width: 300px;
+}
+
+table, th, td {
+  margin-top: 10px;
+  border: 1px solid black;
+  margin: auto;
+  font-size: 10px;
+}
+
+caption {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 15px;
+
+}
