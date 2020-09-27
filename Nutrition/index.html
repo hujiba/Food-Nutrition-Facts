@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+
+  </head>
+  <body class="container">
+    <form class="form-data" autocomplete="on">
+      <div class="enter-food">
+        Enter a UPC to get the nutrition facts:
+      </div>
+      <div>
+        <input type="text" class="food-name" id="searchbox" placeholder="Press Enter To Search"/>
+      </div>
+    </form>
+      <div class="result">
+      <div class="errors"></div>
+      <div class="data"></div>
+      <div class="result-container">
+
+
+ <table style="width:85%">
+   <caption>Nutrition Facts</caption>
+   <th> Item Name: <span id="foodName"> </th>
+   <th> Brand Name: <span id="brandName"> </th>
+   <th> Serving Size: <span id="servingWeight"></th>
+  <tr>
+    <td>Calories: <span id="calories"></td>
+    <td>Total Fat: <span id="totalFat"></td>
+    <td>Saturated Fat: <span id="saturatedFat"></td>
+  </tr>
+  <tr>
+    <td>Cholesterol: <span id="cholesterol"></td>
+    <td>Sodium: <span id="sodium"></td>
+    <td>Total Carbs: <span id="totalCarbs"></td>
+  </tr>
+  <tr>
+    <td>Dietary Fiber: <span id="dietaryFiber"></td>
+    <td>Sugars: <span id="sugars"></td>
+    <td>Protein: <span id="protein"></td>
+  </tr>
+  <tr>
+    <td>Potassium: <span id="potassium"></td>
+    <td scope="col" colspan="2">Ingredients: <span id="ingredients"> </td>
+  </tr>
+</table> 
+
+<script src="libs/jquery-1.12.4.js"></script>
+<script src="libs/jquery-ui.js"></script>
+<script src="fat.js"></script>
+      </div>
+    </div>
+    
+
+    
+  </body>
+</html>
